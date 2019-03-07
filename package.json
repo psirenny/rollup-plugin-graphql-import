@@ -124,7 +124,7 @@
     "build": "rollup -c",
     "check": "run-s audit lint test test:cov typecheck",
     "ci:check": "circleci local execute --job check",
-    "clean": "trash **.DS_Store *.log .bin .nyc_output coverage dist node_modules",
+    "clean": "trash **.DS_Store *.log .bin .nyc_* dist node_modules",
     "lint": "run-s lint:graphql lint:js lint:md lint:pkg",
     "lint:graphql": "graphql-schema-linter test/**/*.graphql",
     "lint:js": "eslint . --ext .js,.md",
