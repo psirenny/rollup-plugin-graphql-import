@@ -131,6 +131,7 @@
     "lint:md": "remark --frail .",
     "lint:pkg": "npmPkgJsonLint ./package.json",
     "outdated": "yarn outdated",
+    "prerelease": "run-s build",
     "release": "standard-version",
     "test": "nyc ava --verbose",
     "test:cov": "nyc check-coverage",
