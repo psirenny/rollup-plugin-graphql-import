@@ -9,6 +9,7 @@
 .gitignore
 .huskyrc
 .npmpackagejsonlintrc.json
+.nvmrc
 .nyc_*
 .nycrc
 .remarkignore
