@@ -1,0 +1,8 @@
+{
+  "extends": "@psirenny/eslint-config",
+  "rules": {
+    "import/no-unresolved": [2, {
+      ignore: ['rollup-plugin-graphql-import']
+    }]
+  }
+}

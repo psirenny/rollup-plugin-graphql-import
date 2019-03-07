@@ -1,0 +1,7 @@
+# import Bar from "./Bar.graphql"
+# import Foo from "./Foo.graphql"
+
+type Query {
+  getBar(id: ID!): Bar
+  getFoo(id: ID!): Foo
+}

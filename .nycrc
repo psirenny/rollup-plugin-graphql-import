@@ -1,0 +1,8 @@
+{
+  "branches": 100,
+  "exclude": ["ava.config.js", "test"],
+  "functions": 100,
+  "lines": 100,
+  "report-dir": ".nyc_coverage",
+  "statements": 100
+}

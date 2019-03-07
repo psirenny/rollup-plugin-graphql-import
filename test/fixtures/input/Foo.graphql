@@ -1,0 +1,5 @@
+# import Baz from "./Baz.graphql"
+
+type Foo {
+  baz: Baz!
+}

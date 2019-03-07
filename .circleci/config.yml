@@ -1,0 +1,15 @@
+version: 2
+jobs:
+  check:
+    docker:
+      - image: circleci/node:10.15.3
+    steps:
+      - checkout
+      - run: yarn install
+      - run: yarn run build
+      - run: yarn run check
+workflows:
+  version: 2
+  check:
+    jobs:
+      - check

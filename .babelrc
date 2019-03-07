@@ -1,0 +1,7 @@
+{
+  "presets": [
+    ["@psirenny/babel-preset", {
+      "targets": { "node": "6" }
+    }]
+  ]
+}

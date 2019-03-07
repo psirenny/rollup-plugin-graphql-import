@@ -1,0 +1,7 @@
+# import Bar from "./Bar.graphql"
+# import Foo from "./Foo.graphql"
+
+type Mutation {
+  setBar(id: ID!): Bar
+  setFoo(id: ID!): Foo
+}
