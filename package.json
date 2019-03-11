@@ -35,7 +35,7 @@
     "@commitlint/cli": "7.5.2",
     "@commitlint/config-conventional": "7.5.0",
     "@psirenny/babel-preset": "1.6.0",
-    "@psirenny/eslint-config": "1.7.1",
+    "@psirenny/eslint-config": "1.7.2",
     "@psirenny/graphql-schema-linter-config": "1.1.1",
     "@psirenny/npm-package-json-lint-config": "1.3.0",
     "@psirenny/remark-preset": "1.5.0",
