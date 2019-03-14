@@ -6829,10 +6829,10 @@ retext-equality@3.9.1:
     quotation "^1.0.1"
     unist-util-visit "^1.0.0"
 
-retext-indefinite-article@1.1.5:
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/retext-indefinite-article/-/retext-indefinite-article-1.1.5.tgz#3a7850b05440d40aa2b586530c53fcf756136dc6"
-  integrity sha512-0COCXRPYEziEiorItemJthRWnhDLtYxiB6BCumYmtSgRvehMvc/Q1u7IP1gRDsFEtWQHY/QaAJpuzvhh0yEgAA==
+retext-indefinite-article@1.1.6:
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/retext-indefinite-article/-/retext-indefinite-article-1.1.6.tgz#8749dc20c4be7ddbe7c56ad00b691cc5976f64ad"
+  integrity sha512-JevJ7OAz0Unk88Pu6qzQi9USYXrjzwfcQzWMpqHRp55RpzVXqwP8wfEp3MBCFORpKLdH72s2qV/VDvG7G+QP1w==
   dependencies:
     format "^0.2.2"
     nlcst-to-string "^2.0.0"
