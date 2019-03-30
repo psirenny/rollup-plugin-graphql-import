@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-graphql-import",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Rollup plugin to import graphql schema definitions",
   "author": "Dennis Torres <djtorres0@gmail.com>",
   "bugs": "https://github.com/psirenny/rollup-plugin-graphql-import/issues",
