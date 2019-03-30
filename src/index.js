@@ -1,10 +1,11 @@
-// @flow
+// @flow strict-local
 
 import fs from 'fs';
 import { parse as parseGraphql, print as stringifyGraphql } from 'graphql';
 import { importSchema, parseSDL as parseGraphqlSdl } from 'graphql-import';
 import { dirname as pathDirname, join as pathJoin } from 'path';
 import { createFilter as createFileFilter } from 'rollup-pluginutils';
+import invariant from 'tiny-invariant';
 
 export type Options = {|
   exclude?: ?(RegExp | RegExp[] | string | string[]),
@@ -19,6 +20,7 @@ const getGraphqlSdl = async (filePath: string) => {
   const file = await fs.promises.readFile(filePath, 'utf8');
   const root = parseGraphql(file, { noLocation: true });
   const schemaDef = root.definitions.find(def => def.kind === 'SchemaDefinition');
+  invariant(schemaDef, 'Schema definition was not found');
   const schemaSdl = stringifyGraphql(schemaDef);
   const documentSdl = importSchema(filePath);
   return `${documentSdl}\n${schemaSdl}`;
