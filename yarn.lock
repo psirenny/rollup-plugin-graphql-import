@@ -7096,10 +7096,10 @@ retext-english@3.0.2:
     parse-english "^4.0.0"
     unherit "^1.0.4"
 
-retext-equality@3.9.1:
-  version "3.9.1"
-  resolved "https://registry.yarnpkg.com/retext-equality/-/retext-equality-3.9.1.tgz#a08e528e17c38a49568ef5b3029418bba5923db1"
-  integrity sha512-2G3ZajjZkprcaXHWOPIp6C4oq53xKA+JDfNXa9CGyavB4mm1b1I8DPucLQl6Sl3fRnplsGHo37UW2OlW/pJPeg==
+retext-equality@3.10.0:
+  version "3.10.0"
+  resolved "https://registry.yarnpkg.com/retext-equality/-/retext-equality-3.10.0.tgz#892c7acb82597662f044d8defb75ea9533e983da"
+  integrity sha512-+o1FjZfFLVUvHveF/MKCEbbjSaA0mA8AGvTtlb6hEI6B6Yil6CHNGZlp91ihLKZU+D6JWwV/GfG2PHFKt9P9aA==
   dependencies:
     lodash.difference "^4.5.0"
     lodash.intersection "^4.4.0"
