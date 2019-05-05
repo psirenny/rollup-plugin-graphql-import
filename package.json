@@ -102,7 +102,7 @@
     "rollup": "1.7.4",
     "rollup-plugin-babel": "5.0.0-alpha.0",
     "rollup-plugin-flow-entry": "0.3.1",
-    "standard-version": "5.0.2",
+    "standard-version": "6.0.1",
     "trash-cli": "1.4.0",
     "unified": "7.1.0"
   },
