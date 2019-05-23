@@ -5320,10 +5320,10 @@ npm-bundled@^1.0.1:
   resolved "https://registry.yarnpkg.com/npm-bundled/-/npm-bundled-1.0.6.tgz#e7ba9aadcef962bb61248f91721cd932b3fe6bdd"
   integrity sha512-8/JCaftHwbd//k6y2rEWp6k1wxVfpFzB6t1p825+cUb7Ym2XQfhwIC5KwhrvzZRJu+LtDE585zVaS32+CGtf0g==
 
-npm-package-json-lint@3.6.0:
-  version "3.6.0"
-  resolved "https://registry.yarnpkg.com/npm-package-json-lint/-/npm-package-json-lint-3.6.0.tgz#7920a6bc8ae9b9713f7bab26390fd2f9a772675b"
-  integrity sha512-N1y3r0l0oN7mYnMfRzZvYF8+NvjIx+zkskRn3J7ofipJKGH4RDDKdEGP/mV1Crf5W8uUo3201VhJe04Q+v9erw==
+npm-package-json-lint@3.6.1:
+  version "3.6.1"
+  resolved "https://registry.yarnpkg.com/npm-package-json-lint/-/npm-package-json-lint-3.6.1.tgz#73f3f7e7a82c286f7bffff306702d4464d909731"
+  integrity sha512-JltYVrBTRhxZ7fyG5OqxiqKE2MZUjWJVW/jCuywMpgeKXJyBHy7Je5wcCRxxERjgvpaTiPj/RFa/ZtN5/2wRYg==
   dependencies:
     ajv "^6.9.2"
     chalk "^2.4.2"
