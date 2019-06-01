@@ -2865,21 +2865,18 @@ eslint-plugin-array-func@3.1.3:
   resolved "https://registry.yarnpkg.com/eslint-plugin-array-func/-/eslint-plugin-array-func-3.1.3.tgz#384de52749b143d62a97869e438ea8361b49d921"
   integrity sha512-uRfJ4d9Fyyvxm6/w++++RSQoXZyERFF0+6zqupgg5Mw/+eG4y19yrptTghJlApntKlPZBpA4XCOIBzJbvLrArQ==
 
-eslint-plugin-ava@6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-ava/-/eslint-plugin-ava-6.0.0.tgz#069f88a5348169ac8d135915b279614928d99150"
-  integrity sha512-bL7rKMY8zIEJyZhac7IWefst8LfYmyBZQuV67XYVg4XOTj8UqlgcCNJFCBmIfonBfoRaEQP6zJqq3RltwB7l2Q==
+eslint-plugin-ava@7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-ava/-/eslint-plugin-ava-7.0.0.tgz#362c65533078b6d41dfc586d93b0e928f19a95a8"
+  integrity sha512-tou5pP/DuHQRJc6T2DELW9KUrXdjXRi3ziSlch9gsEifqLn4Ku45GQpI4wDvdJ1Rtidy3hlqOl0QmQSIgoUXHA==
   dependencies:
-    arrify "^1.0.1"
     deep-strict-equal "^0.2.0"
     enhance-visitors "^1.0.0"
-    esm "^3.0.84"
     espree "^5.0.0"
     espurify "^2.0.0"
     import-modules "^1.1.0"
-    is-plain-object "^2.0.4"
-    multimatch "^3.0.0"
-    pkg-up "^2.0.0"
+    pkg-dir "^4.2.0"
+    resolve-from "^5.0.0"
 
 eslint-plugin-babel@5.3.0:
   version "5.3.0"
@@ -3032,7 +3029,7 @@ eslint@5.15.3:
     table "^5.2.3"
     text-table "^0.2.0"
 
-esm@^3.0.84, esm@^3.2.20:
+esm@^3.2.20:
   version "3.2.22"
   resolved "https://registry.yarnpkg.com/esm/-/esm-3.2.22.tgz#5062c2e22fee3ccfee4e8f20da768330da90d6e3"
   integrity sha512-z8YG7U44L82j1XrdEJcqZOLUnjxco8pO453gKOlaMD1/md1n/5QrscAmYG+oKUspsmDLuBFZrpbxI6aQ67yRxA==
@@ -3311,6 +3308,13 @@ find-up@^3.0.0:
   integrity sha512-1yD6RmLI1XBfxugvORwlck6f75tYL+iR0jqwsOrOxMZyGYqUuDhJ0l4AXdO1iX/FTs9cBAMEk1gWSEx1kSbylg==
   dependencies:
     locate-path "^3.0.0"
+
+find-up@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/find-up/-/find-up-4.0.0.tgz#c367f8024de92efb75f2d4906536d24682065c3a"
+  integrity sha512-zoH7ZWPkRdgwYCDVoQTzqjG8JSPANhtvLhh4KVUHyKnaUJJrNeFmWIkTcNuJmR3GLMEmGYEf2S2bjgx26JTF+Q==
+  dependencies:
+    locate-path "^5.0.0"
 
 flat-cache@^2.0.1:
   version "2.0.1"
@@ -4702,6 +4706,13 @@ locate-path@^3.0.0:
     p-locate "^3.0.0"
     path-exists "^3.0.0"
 
+locate-path@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/locate-path/-/locate-path-5.0.0.tgz#1afba396afd676a6d42504d0a67a3a7eb9f62aa0"
+  integrity sha512-t7hw9pI+WvuwNJXwk5zVHpyhIqzg2qTlklJOf0mVxGSbe3Fp2VieZcduNYjaLDoy6p9uGpQEGWG87WpMKlNq8g==
+  dependencies:
+    p-locate "^4.1.0"
+
 lodash._reinterpolate@~3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/lodash._reinterpolate/-/lodash._reinterpolate-3.0.0.tgz#0ccf2d89166af03b3663c796538b75ac6e114d9d"
@@ -5632,7 +5643,7 @@ p-limit@^1.1.0:
   dependencies:
     p-try "^1.0.0"
 
-p-limit@^2.0.0:
+p-limit@^2.0.0, p-limit@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/p-limit/-/p-limit-2.2.0.tgz#417c9941e6027a9abcba5092dd2904e255b5fbc2"
   integrity sha512-pZbTJpoUsCzV48Mc9Nh51VbwO0X9cuPFE8gYwx9BTCt9SF8/b7Zljd2fVgOxhIF/HDTKgpVzs+GPhyKfjLLFRQ==
@@ -5652,6 +5663,13 @@ p-locate@^3.0.0:
   integrity sha512-x+12w/To+4GFfgJhBEpiDcLozRJGegY+Ei7/z0tSLkMmxGZNybVMSfWj9aJn8Z5Fc7dBUNJOOVgPv2H7IwulSQ==
   dependencies:
     p-limit "^2.0.0"
+
+p-locate@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/p-locate/-/p-locate-4.1.0.tgz#a3428bb7088b3a60292f66919278b7c297ad4f07"
+  integrity sha512-R79ZZ/0wAxKGu3oYMlz8jy/kbhsNrS7SKZ7PxEHBgJ5+F2mtFW2fK2cOtBh1cHYkQsbzFV7I+EoRKe6Yt0oK7A==
+  dependencies:
+    p-limit "^2.2.0"
 
 p-map@^1.2.0:
   version "1.2.0"
@@ -5909,12 +5927,12 @@ pkg-dir@^3.0.0:
   dependencies:
     find-up "^3.0.0"
 
-pkg-up@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/pkg-up/-/pkg-up-2.0.0.tgz#c819ac728059a461cab1c3889a2be3c49a004d7f"
-  integrity sha1-yBmscoBZpGHKscOImivjxJoATX8=
+pkg-dir@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/pkg-dir/-/pkg-dir-4.2.0.tgz#f099133df7ede422e81d1d8448270eeb3e4261f3"
+  integrity sha512-HRDzbaKjC+AOWVXxAU/x54COGeIv9eb+6CkDSQoNTt4XyWoIJvuPsXizxu/Fr23EiekbtZwmh1IcIG/l/a10GQ==
   dependencies:
-    find-up "^2.1.0"
+    find-up "^4.0.0"
 
 please-upgrade-node@^3.1.1:
   version "3.1.1"
@@ -7023,6 +7041,11 @@ resolve-from@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/resolve-from/-/resolve-from-3.0.0.tgz#b22c7af7d9d6881bc8b6e653335eebcb0a188748"
   integrity sha1-six699nWiBvItuZTM17rywoYh0g=
+
+resolve-from@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/resolve-from/-/resolve-from-5.0.0.tgz#c35225843df8f776df21c57557bc087e9dfdfc69"
+  integrity sha512-qYg9KP24dD5qka9J47d0aVky0N+b4fTU89LN9iDnjB5waksiC49rvMB0PrUJQGoTmH50XPiqOvAjDfaijGxYZw==
 
 resolve-global@0.1.0, resolve-global@^0.1.0:
   version "0.1.0"
