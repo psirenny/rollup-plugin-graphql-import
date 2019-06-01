@@ -1073,10 +1073,10 @@
     universal-user-agent "^2.0.0"
     url-template "^2.0.8"
 
-"@psirenny/babel-preset@1.6.6":
-  version "1.6.6"
-  resolved "https://registry.yarnpkg.com/@psirenny/babel-preset/-/babel-preset-1.6.6.tgz#8f4e2e2e4da53b2d57fdde9830e38a750a57882f"
-  integrity sha512-Dt/hSIcK33cTu4VGAhl0OSCZZ7ILs78vTM/NCjBUaY7qiRjJYGGWirNS/ItTYtr89wlP24qshGQAkakl8+6sDQ==
+"@psirenny/babel-preset@1.7.0":
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/@psirenny/babel-preset/-/babel-preset-1.7.0.tgz#a077de7430f22420728a2b1fcacbcfb16a3e2904"
+  integrity sha512-Swanoh0ayeXcb+u2odI1glw1cDOGpD04aRd1DkGzcqwy5sidGVjpc8VaInO/CcRCrMT8bjGpxDq2g/B5IvUM9Q==
 
 "@psirenny/dictionary@1.5.6":
   version "1.5.6"
