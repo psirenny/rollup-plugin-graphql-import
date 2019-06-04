@@ -7188,16 +7188,15 @@ retext-readability@4.2.1:
     syllable "^3.2.0"
     unist-util-visit "^1.0.0"
 
-retext-redundant-acronyms@1.2.2:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/retext-redundant-acronyms/-/retext-redundant-acronyms-1.2.2.tgz#61eec4d672fd5ce12209aacd1bad4ab8f5b7b37f"
-  integrity sha512-cAqICxNKKMOF299PYEea+sOPJtd4DQzDBhprUMmgZAx7Bm0Y8JRODMJuf3N6M4GvNmOdNXTfmz4/QCx677539Q==
+retext-redundant-acronyms@1.2.3:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/retext-redundant-acronyms/-/retext-redundant-acronyms-1.2.3.tgz#656a2057da2b1acc3ad75a300986bff02a214efa"
+  integrity sha512-AtC+AOTB+c4VgTmK9xFnm/0rBE/hYd3HmGOp4XZxLOY/A3KAVnoHO1athvp8G13UwGg+eu3RusUbeufSW5L9qA==
   dependencies:
     match-casing "^1.0.0"
     nlcst-search "^1.0.0"
     nlcst-to-string "^2.0.0"
-    object-keys "^1.0.9"
-    quotation "^1.0.1"
+    quotation "^1.0.0"
     unist-util-position "^3.0.0"
 
 retext-repeated-words@1.2.2:
