@@ -5,7 +5,7 @@
   "author": "Dennis Torres <djtorres0@gmail.com>",
   "bugs": "https://github.com/psirenny/rollup-plugin-graphql-import/issues",
   "dependencies": {
-    "rollup-pluginutils": "^2.5.0",
+    "rollup-pluginutils": "^2.8.1",
     "tiny-invariant": "^1.0.0"
   },
   "devDependencies": {
