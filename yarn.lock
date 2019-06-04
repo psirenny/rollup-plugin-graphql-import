@@ -7121,10 +7121,10 @@ retext-indefinite-article@1.1.6:
     unist-util-is "^2.0.0"
     unist-util-visit "^1.1.0"
 
-retext-intensify@3.0.2:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/retext-intensify/-/retext-intensify-3.0.2.tgz#7c8bfe6867bf8007a26f13c7de2978affd3ab9ea"
-  integrity sha512-eLjkuywQE6nsnyeNI2SXjYAoKN9NSutnvSQJGoFBzGx7xNADLT0QxmCjmsFy1lBVPUMjqeRBomYp5oJ48oggfg==
+retext-intensify@3.0.3:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/retext-intensify/-/retext-intensify-3.0.3.tgz#b23aa9a3c0ff0b1cc8ad3b679899974e4ba5f0f7"
+  integrity sha512-ndeXv1u1bJcbJFmxZ3AUEnGWBZheSJHnQS0z0DYeVnar3bw8jSRYGiQtSJ7nssV93XogpKIzNcA/ro/BVWFznA==
   dependencies:
     arr-union "^3.0.0"
     array-differ "^1.0.0"
