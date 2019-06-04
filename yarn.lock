@@ -7219,10 +7219,10 @@ retext-sentence-spacing@2.1.0:
     unist-util-is "^2.0.0"
     unist-util-visit "^1.1.0"
 
-retext-simplify@4.1.2:
-  version "4.1.2"
-  resolved "https://registry.yarnpkg.com/retext-simplify/-/retext-simplify-4.1.2.tgz#4c179475a9585a4ac8c80ceaf702e2a9a59aa34b"
-  integrity sha512-hB6gTs5PWk5D4jmuEoM/cpB4Fc4mGh8CbKk/pQvaQhhPmukQ98xi0L1GKNSjuTeFhZ6H3FszfduMfMAUZ3MDpw==
+retext-simplify@4.1.3:
+  version "4.1.3"
+  resolved "https://registry.yarnpkg.com/retext-simplify/-/retext-simplify-4.1.3.tgz#56d29164c728572f1fd1cc253453d2748b1d761a"
+  integrity sha512-ChVdsNJ5dgf2dScm6O+6W7zFJVKiZerfr7xO7gJcanbK/BUC7X+3iMFN6uBJdqeq0cgyR/bNxC/YBPP1CeGwZA==
   dependencies:
     lodash.difference "^4.4.0"
     nlcst-search "^1.0.0"
