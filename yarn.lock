@@ -7243,10 +7243,10 @@ retext-spell@2.4.0:
     quotation "^1.1.0"
     unist-util-visit "^1.0.0"
 
-retext-syntax-mentions@1.1.5:
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/retext-syntax-mentions/-/retext-syntax-mentions-1.1.5.tgz#e0ccfaa3d3c1be3a08280e3a4cb60a298a8b06d9"
-  integrity sha512-wlxKDwFHviE7pcRns7y7O0dtwlYbvV5MvbiLfq1f0XSrNwtCoP/lRQL4B0IJg0GQo8e+zCN0j4/UEGtuTEye1Q==
+retext-syntax-mentions@1.1.6:
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/retext-syntax-mentions/-/retext-syntax-mentions-1.1.6.tgz#909d6b9c34963b9f19cc8e18bd0d10e3e79c8e3f"
+  integrity sha512-e6+Kh3dhzdBn0mHeiiKGUJMMqKTC7O2t+blKZWR1VeP0Kbm6CU4D1p5r+eH24GNCWRnqv3NbDk7RbdALqPLTeQ==
   dependencies:
     nlcst-to-string "^2.0.0"
     unist-util-position "^3.0.0"
