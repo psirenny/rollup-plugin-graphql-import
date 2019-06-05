@@ -7170,10 +7170,10 @@ retext-quotes@2.0.3:
     unist-util-is "^2.0.0"
     unist-util-visit "^1.1.0"
 
-retext-readability@4.2.1:
-  version "4.2.1"
-  resolved "https://registry.yarnpkg.com/retext-readability/-/retext-readability-4.2.1.tgz#cc04f8f8f54089b7ed10e5721ff597ffbf25506e"
-  integrity sha512-YMhvn+L6zpw5mM35jdkhaAKexBHRm98kqhhr6z32AMSJb4IvfWQQ0X9yH1gJuJms2xMwmOzwSdjHNjSRpOqpFg==
+retext-readability@4.2.2:
+  version "4.2.2"
+  resolved "https://registry.yarnpkg.com/retext-readability/-/retext-readability-4.2.2.tgz#95eec704ff3e7739aaf9ba1665fa17a329d52e64"
+  integrity sha512-D+zBUr1nxZmwaZXvgHE6a/JJH/JpjLlje3q7lnSqgfwm5bIMzqAiPbsNUFlY4E7Sd4Tt76jhkfNLTz2aWprZUA==
   dependencies:
     automated-readability "^1.0.0"
     coleman-liau "^1.0.0"
