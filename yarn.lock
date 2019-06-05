@@ -7231,10 +7231,10 @@ retext-simplify@4.1.2:
     quotation "^1.0.0"
     unist-util-position "^3.0.0"
 
-retext-spell@2.4.0:
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/retext-spell/-/retext-spell-2.4.0.tgz#0d72ccd8ebbbd45152bec99668d74bf297c4b282"
-  integrity sha512-k3YHCcHUGESEi6AckQBi8ID3ySsYE8DKRMlnnWhGFiJnHfWKwk+jCLMsxwgRygC0qI91WpYwaeO9wP9kKBECAw==
+retext-spell@2.4.1:
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/retext-spell/-/retext-spell-2.4.1.tgz#f5eb3dfe3920f15dae325c2677098acb67ed387a"
+  integrity sha512-l2C37Sz+JMLgUJHqqNA2bV3Qqh7V6zWT3fCi8MtsZn2PoanDh57Tz2NW/DJpoEIsK9mV7o2EMvQmIMt5cgcgAg==
   dependencies:
     lodash.includes "^4.2.0"
     nlcst-is-literal "^1.0.0"
