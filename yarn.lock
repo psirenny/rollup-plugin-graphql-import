@@ -7067,10 +7067,10 @@ retext-assuming@1.0.0:
     quotation "^1.1.0"
     unist-util-find-before "^2.0.1"
 
-retext-contractions@2.1.3:
-  version "2.1.3"
-  resolved "https://registry.yarnpkg.com/retext-contractions/-/retext-contractions-2.1.3.tgz#c1a3f44b22ccf505266ef83aa60c0d07162e377c"
-  integrity sha512-HN5iDZZ0WC0tJPuC+KAz00YuCLYcgM9b8sr0kQuBniqz8YsyqKiGFBQJ40sSwTVpz7GL378/5qIBr8n04eMEiA==
+retext-contractions@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/retext-contractions/-/retext-contractions-3.0.0.tgz#01fa2d0864340cf79bf4c86637c87dd4f9eab767"
+  integrity sha512-Wn95agseXHTsoXvhavuTcnwUEb9TbL7QtnYkHeFMh8L53jdQbbooLX68cbpKyaaPbxYiomrgJpu7eB3arcr2rw==
   dependencies:
     nlcst-is-literal "^1.0.0"
     nlcst-to-string "^2.0.0"
