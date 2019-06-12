@@ -5942,6 +5942,11 @@ pluralize@^7.0.0:
   resolved "https://registry.yarnpkg.com/pluralize/-/pluralize-7.0.0.tgz#298b89df8b93b0221dbf421ad2b1b1ea23fc6777"
   integrity sha512-ARhBOdzS3e41FbkW/XWrTEtukqqLoK5+Z/4UeDaLuSW+39JPeFgs4gCGqsrJHVZX0fUrx//4OF0K1CUGwlIFow==
 
+pluralize@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/pluralize/-/pluralize-8.0.0.tgz#1a6fa16a38d12a1901e0320fa017051c539ce3b1"
+  integrity sha512-Nc3IT5yHzflTfbjgqWcCPpo7DaKy4FnpB0l/zCAW0Tc7jxAiuqSxHasntB3D7887LSrA93kDJ9IXovxJYxyLCA==
+
 posix-character-classes@^0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/posix-character-classes/-/posix-character-classes-0.1.1.tgz#01eac0fe3b5af71a2a6c02feabb8c1fef7e00eab"
@@ -7188,16 +7193,17 @@ retext-readability@4.2.1:
     syllable "^3.2.0"
     unist-util-visit "^1.0.0"
 
-retext-redundant-acronyms@1.2.2:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/retext-redundant-acronyms/-/retext-redundant-acronyms-1.2.2.tgz#61eec4d672fd5ce12209aacd1bad4ab8f5b7b37f"
-  integrity sha512-cAqICxNKKMOF299PYEea+sOPJtd4DQzDBhprUMmgZAx7Bm0Y8JRODMJuf3N6M4GvNmOdNXTfmz4/QCx677539Q==
+retext-redundant-acronyms@2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/retext-redundant-acronyms/-/retext-redundant-acronyms-2.0.0.tgz#e4fb92a97b0db76dfa20192e0d3915470458e80c"
+  integrity sha512-9E62yXkDKYItNZO+lT4Pp0rAP8e/H7ppjYP681L0fk74xyItoE6okl0BMNVOa0W4XidLoGX2uWdlwWpCUeqQiw==
   dependencies:
-    match-casing "^1.0.0"
+    nlcst-normalize "^2.0.0"
     nlcst-search "^1.0.0"
     nlcst-to-string "^2.0.0"
-    object-keys "^1.0.9"
-    quotation "^1.0.1"
+    pluralize "^8.0.0"
+    quotation "^1.0.0"
+    unist-util-find-after "^2.0.0"
     unist-util-position "^3.0.0"
 
 retext-repeated-words@1.2.2:
@@ -8195,6 +8201,13 @@ unique-temp-dir@^1.0.0:
     os-tmpdir "^1.0.1"
     uid2 "0.0.3"
 
+unist-util-find-after@^2.0.0:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/unist-util-find-after/-/unist-util-find-after-2.0.4.tgz#3fcccf0df3a2e7291fa119224c0f22158357cc10"
+  integrity sha512-zo0ShIr+E/aU9xSK7JC9Kb+WP9seTFCuqVYdo5+HJSjN009XMfhiA1FIExEKzdDP1UsgvKGleGlB/pSdTSqZww==
+  dependencies:
+    unist-util-is "^3.0.0"
+
 unist-util-find-before@^2.0.0, unist-util-find-before@^2.0.1:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/unist-util-find-before/-/unist-util-find-before-2.0.2.tgz#bfb063489711b9db11954694aaf117aa851b8946"
@@ -8218,6 +8231,11 @@ unist-util-is@^2.0.0, unist-util-is@^2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/unist-util-is/-/unist-util-is-2.1.2.tgz#1193fa8f2bfbbb82150633f3a8d2eb9a1c1d55db"
   integrity sha512-YkXBK/H9raAmG7KXck+UUpnKiNmUdB+aBGrknfQ4EreE1banuzrKABx3jP6Z5Z3fMSPMQQmeXBlKpCbMwBkxVw==
+
+unist-util-is@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/unist-util-is/-/unist-util-is-3.0.0.tgz#d9e84381c2468e82629e4a5be9d7d05a2dd324cd"
+  integrity sha512-sVZZX3+kspVNmLWBPAB6r+7D9ZgAFPNWm66f7YNb420RlQSbn+n8rG8dGZSkrER7ZIXGQYNm5pqC3v3HopH24A==
 
 unist-util-modify-children@^1.0.0, unist-util-modify-children@^1.1.1:
   version "1.1.3"
