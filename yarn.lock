@@ -7096,10 +7096,10 @@ retext-english@3.0.2:
     parse-english "^4.0.0"
     unherit "^1.0.4"
 
-retext-equality@3.9.1:
-  version "3.9.1"
-  resolved "https://registry.yarnpkg.com/retext-equality/-/retext-equality-3.9.1.tgz#a08e528e17c38a49568ef5b3029418bba5923db1"
-  integrity sha512-2G3ZajjZkprcaXHWOPIp6C4oq53xKA+JDfNXa9CGyavB4mm1b1I8DPucLQl6Sl3fRnplsGHo37UW2OlW/pJPeg==
+retext-equality@4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/retext-equality/-/retext-equality-4.0.0.tgz#a8c4a7f2e462f57a57f46fb64bc2572cfb06432f"
+  integrity sha512-IM0L38wMuBRDY5Pj7c4OXN0THA6I1eAqmda/H+MMyajk1fBxaGfdxrY0qm9hilyVF7XKS93uEee+V2KeNBqbmQ==
   dependencies:
     lodash.difference "^4.5.0"
     lodash.intersection "^4.4.0"
@@ -7108,6 +7108,7 @@ retext-equality@3.9.1:
     nlcst-to-string "^2.0.0"
     object-keys "^1.0.7"
     quotation "^1.0.1"
+    unist-util-is "^3.0.0"
     unist-util-visit "^1.0.0"
 
 retext-indefinite-article@1.1.6:
@@ -8218,6 +8219,11 @@ unist-util-is@^2.0.0, unist-util-is@^2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/unist-util-is/-/unist-util-is-2.1.2.tgz#1193fa8f2bfbbb82150633f3a8d2eb9a1c1d55db"
   integrity sha512-YkXBK/H9raAmG7KXck+UUpnKiNmUdB+aBGrknfQ4EreE1banuzrKABx3jP6Z5Z3fMSPMQQmeXBlKpCbMwBkxVw==
+
+unist-util-is@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/unist-util-is/-/unist-util-is-3.0.0.tgz#d9e84381c2468e82629e4a5be9d7d05a2dd324cd"
+  integrity sha512-sVZZX3+kspVNmLWBPAB6r+7D9ZgAFPNWm66f7YNb420RlQSbn+n8rG8dGZSkrER7ZIXGQYNm5pqC3v3HopH24A==
 
 unist-util-modify-children@^1.0.0, unist-util-modify-children@^1.1.1:
   version "1.1.3"
