@@ -2488,10 +2488,10 @@ currently-unhandled@^0.4.1:
   dependencies:
     array-find-index "^1.0.1"
 
-cuss@^1.11.0:
-  version "1.13.1"
-  resolved "https://registry.yarnpkg.com/cuss/-/cuss-1.13.1.tgz#d07eb93cd0ec7428c4c04c8a5b388d7f1ca829b9"
-  integrity sha512-1rFdRmBBnv5fbwsMq6ChZsAmn6Ev9AzinaLZb3zIqlNiQDx3AzoZilwiEVes3AL/udNHY2qoEGkT/iDaXBap+g==
+cuss@^1.15.0:
+  version "1.16.0"
+  resolved "https://registry.yarnpkg.com/cuss/-/cuss-1.16.0.tgz#7da59e7c130efe545be212ac23f743a95bc03f13"
+  integrity sha512-VtYrZxNqRWLd/z3a57ezUv9WLR0l0n0qmYA5O9QBepliUWlEvRgBUnfZO6bZK29KocssaZ6ks7EistDLYPFWhA==
 
 dale-chall-formula@^1.0.0:
   version "1.0.3"
@@ -5942,6 +5942,11 @@ pluralize@^7.0.0:
   resolved "https://registry.yarnpkg.com/pluralize/-/pluralize-7.0.0.tgz#298b89df8b93b0221dbf421ad2b1b1ea23fc6777"
   integrity sha512-ARhBOdzS3e41FbkW/XWrTEtukqqLoK5+Z/4UeDaLuSW+39JPeFgs4gCGqsrJHVZX0fUrx//4OF0K1CUGwlIFow==
 
+pluralize@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/pluralize/-/pluralize-8.0.0.tgz#1a6fa16a38d12a1901e0320fa017051c539ce3b1"
+  integrity sha512-Nc3IT5yHzflTfbjgqWcCPpo7DaKy4FnpB0l/zCAW0Tc7jxAiuqSxHasntB3D7887LSrA93kDJ9IXovxJYxyLCA==
+
 posix-character-classes@^0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/posix-character-classes/-/posix-character-classes-0.1.1.tgz#01eac0fe3b5af71a2a6c02feabb8c1fef7e00eab"
@@ -7147,18 +7152,18 @@ retext-passive@1.3.2:
     unist-util-find-before "^2.0.0"
     unist-util-position "^3.0.0"
 
-retext-profanities@4.6.0:
-  version "4.6.0"
-  resolved "https://registry.yarnpkg.com/retext-profanities/-/retext-profanities-4.6.0.tgz#07d813e80c1c9cf588ae4b49b341060fe8e505f0"
-  integrity sha512-dUQn440mDWWt2cgxapM+ymMfyTwzb6Z2ajJ1Sw6xkq6lTFz2cyQyEiCLCwu/ZeaIQWBCTofVA0Z/S9KxWUTcbw==
+retext-profanities@5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/retext-profanities/-/retext-profanities-5.0.0.tgz#827386db6bbf154275f626eb24ffce59cc957310"
+  integrity sha512-zaPCKtrMDLs0U/2yN3V3rpYn1VZ3hW+AsEZdovWIRlEYZPCaUmkChOSob45LOQYJUnM+YZIahXuU9zHPm+aTKQ==
   dependencies:
-    cuss "^1.11.0"
+    cuss "^1.15.0"
     lodash.difference "^4.5.0"
     lodash.intersection "^4.4.0"
     nlcst-search "^1.0.0"
     nlcst-to-string "^2.0.0"
     object-keys "^1.0.9"
-    pluralize "^7.0.0"
+    pluralize "^8.0.0"
     quotation "^1.0.0"
 
 retext-quotes@2.0.3:
