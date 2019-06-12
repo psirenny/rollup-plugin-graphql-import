@@ -4017,11 +4017,6 @@ invert-kv@^2.0.0:
   resolved "https://registry.yarnpkg.com/invert-kv/-/invert-kv-2.0.0.tgz#7393f5afa59ec9ff5f67a27620d11c226e3eec02"
   integrity sha512-wPVv/y/QQ/Uiirj/vh3oP+1Ww+AWehmi1g5fFWGPF6IpCBCDVrhgHRMvrLfdYcwDh3QJbGXDW4JAuzxElLSqKA==
 
-irregular-plurals@^1.0.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/irregular-plurals/-/irregular-plurals-1.4.0.tgz#2ca9b033651111855412f16be5d77c62a458a766"
-  integrity sha1-LKmwM2UREYVUEvFr5dd8YqRYp2Y=
-
 irregular-plurals@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/irregular-plurals/-/irregular-plurals-2.0.0.tgz#39d40f05b00f656d0b7fa471230dd3b714af2872"
@@ -5923,13 +5918,6 @@ please-upgrade-node@^3.1.1:
   dependencies:
     semver-compare "^1.0.0"
 
-plur@^2.1.2:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/plur/-/plur-2.1.2.tgz#7482452c1a0f508e3e344eaec312c91c29dc655a"
-  integrity sha1-dIJFLBoPUI4+NE6uwxLJHCncZVo=
-  dependencies:
-    irregular-plurals "^1.0.0"
-
 plur@^3.0.0, plur@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/plur/-/plur-3.0.1.tgz#268652d605f816699b42b86248de73c9acd06a7c"
@@ -7209,14 +7197,13 @@ retext-repeated-words@1.2.2:
     unist-util-is "^2.0.0"
     unist-util-visit "^1.1.0"
 
-retext-sentence-spacing@2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/retext-sentence-spacing/-/retext-sentence-spacing-2.1.0.tgz#cef60a0fd8c8301927383fcd35a4e2cced084869"
-  integrity sha512-s2cfNnhXrKvy/uilfeFzUj/gawZT2CV2ZegGVxRxTs+JYASD3TMPr6EH5m9gd5ORpFG52ALuZaizoF1UZvMXhg==
+retext-sentence-spacing@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/retext-sentence-spacing/-/retext-sentence-spacing-3.0.0.tgz#bfdfc4fc5990f816cc79a6caa335046878208300"
+  integrity sha512-UWltTXZNh6kBwJJc0js3nOmbqze3LqhJg68jaRErNIPZQHtZ5hMn7h7f8kVY5OrbEL9XiY88m5DRPbFz16eTkQ==
   dependencies:
     nlcst-to-string "^2.0.0"
-    plur "^2.1.2"
-    unist-util-is "^2.0.0"
+    unist-util-is "^3.0.0"
     unist-util-visit "^1.1.0"
 
 retext-simplify@4.1.2:
@@ -8218,6 +8205,11 @@ unist-util-is@^2.0.0, unist-util-is@^2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/unist-util-is/-/unist-util-is-2.1.2.tgz#1193fa8f2bfbbb82150633f3a8d2eb9a1c1d55db"
   integrity sha512-YkXBK/H9raAmG7KXck+UUpnKiNmUdB+aBGrknfQ4EreE1banuzrKABx3jP6Z5Z3fMSPMQQmeXBlKpCbMwBkxVw==
+
+unist-util-is@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/unist-util-is/-/unist-util-is-3.0.0.tgz#d9e84381c2468e82629e4a5be9d7d05a2dd324cd"
+  integrity sha512-sVZZX3+kspVNmLWBPAB6r+7D9ZgAFPNWm66f7YNb420RlQSbn+n8rG8dGZSkrER7ZIXGQYNm5pqC3v3HopH24A==
 
 unist-util-modify-children@^1.0.0, unist-util-modify-children@^1.1.1:
   version "1.1.3"
