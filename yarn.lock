@@ -7161,13 +7161,13 @@ retext-profanities@4.6.0:
     pluralize "^7.0.0"
     quotation "^1.0.0"
 
-retext-quotes@2.0.3:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/retext-quotes/-/retext-quotes-2.0.3.tgz#7b1aa811e9a26cd5830e8495d7ef7aeb7a2a5ed3"
-  integrity sha512-GngYmhEhnuVX6Dv1flM08XgEBCnciH7elulGcgGH0kIc8KYShuScu3qmLAg7NCETytmmgBMvsHEnEOtocRCERw==
+retext-quotes@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/retext-quotes/-/retext-quotes-3.0.0.tgz#47f772e886b9b513dc6f1b97c482e15b1446b84a"
+  integrity sha512-2htggeOFsrorhXrQvb4BI1O/r7CGVQZx/TysAT7wlVMsRUTZooiIGkBcLrcySa4sbqjsVgg1RjMy8K5O+gCQlg==
   dependencies:
     nlcst-to-string "^2.0.0"
-    unist-util-is "^2.0.0"
+    unist-util-is "^3.0.0"
     unist-util-visit "^1.1.0"
 
 retext-readability@4.2.1:
@@ -8218,6 +8218,11 @@ unist-util-is@^2.0.0, unist-util-is@^2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/unist-util-is/-/unist-util-is-2.1.2.tgz#1193fa8f2bfbbb82150633f3a8d2eb9a1c1d55db"
   integrity sha512-YkXBK/H9raAmG7KXck+UUpnKiNmUdB+aBGrknfQ4EreE1banuzrKABx3jP6Z5Z3fMSPMQQmeXBlKpCbMwBkxVw==
+
+unist-util-is@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/unist-util-is/-/unist-util-is-3.0.0.tgz#d9e84381c2468e82629e4a5be9d7d05a2dd324cd"
+  integrity sha512-sVZZX3+kspVNmLWBPAB6r+7D9ZgAFPNWm66f7YNb420RlQSbn+n8rG8dGZSkrER7ZIXGQYNm5pqC3v3HopH24A==
 
 unist-util-modify-children@^1.0.0, unist-util-modify-children@^1.1.1:
   version "1.1.3"
