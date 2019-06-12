@@ -7076,15 +7076,14 @@ retext-contractions@2.1.3:
     nlcst-to-string "^2.0.0"
     unist-util-visit "^1.1.0"
 
-retext-diacritics@1.2.2:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/retext-diacritics/-/retext-diacritics-1.2.2.tgz#a328f6c556e59a9d1ac347fa64387352371a062d"
-  integrity sha512-1i8FFyAiFMUwqsRENuPr9tPxcL7Ges6Troiz6NMnQL4hpVKvzdZkPGfKK2PGKJaM16rmbU3zSZKbYDSC9BObug==
+retext-diacritics@2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/retext-diacritics/-/retext-diacritics-2.0.0.tgz#db4f6da81d42acae34fb149500421dec1f26af78"
+  integrity sha512-wr3mqJ9whlIG/q6vP601qR+/C7AMgc7O60kebs9kvN/HtTX7CpvFsKF68+yw86drMOMVCBJP8JB1Qlnj8CkY5A==
   dependencies:
     match-casing "^1.0.0"
     nlcst-search "^1.0.0"
     nlcst-to-string "^2.0.0"
-    object-keys "^1.0.9"
     quotation "^1.0.1"
     unist-util-position "^3.0.0"
 
