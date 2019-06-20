@@ -6282,7 +6282,18 @@ remark-lint-blockquote-indentation@1.0.2, remark-lint-blockquote-indentation@^1.
     unist-util-position "^3.0.0"
     unist-util-visit "^1.1.1"
 
-remark-lint-checkbox-character-style@1.0.2, remark-lint-checkbox-character-style@^1.0.0:
+remark-lint-checkbox-character-style@1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/remark-lint-checkbox-character-style/-/remark-lint-checkbox-character-style-1.0.3.tgz#d92301fbcea0ba0670bd2190c7eefa7784be0e5b"
+  integrity sha512-bQGrGHLlguTxOzuywHtYxNcg58TYhNgeEAMCTvdAggt5bYZIwmh/otx51JsQ0a96qxd/6/G0Ri2xzgyxf9wB8w==
+  dependencies:
+    unified-lint-rule "^1.0.0"
+    unist-util-generated "^1.1.0"
+    unist-util-position "^3.0.0"
+    unist-util-visit "^1.1.1"
+    vfile-location "^2.0.1"
+
+remark-lint-checkbox-character-style@^1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/remark-lint-checkbox-character-style/-/remark-lint-checkbox-character-style-1.0.2.tgz#0dc33eb1a2753e2c4212799cbf15cd4153aeef55"
   integrity sha512-8hTvHHGj0Ko5Qx9RjBVj9yPO/pOpSFzWVMvszyhZkuH/uy92bab/bmfUwl0/4f8gqsxqyRS/QC/Sp+KivWvYlw==
