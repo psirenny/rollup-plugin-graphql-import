@@ -6396,7 +6396,17 @@ remark-lint-heading-increment@^1.0.0:
     unist-util-generated "^1.1.0"
     unist-util-visit "^1.1.1"
 
-remark-lint-heading-style@1.0.2, remark-lint-heading-style@^1.0.0:
+remark-lint-heading-style@1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/remark-lint-heading-style/-/remark-lint-heading-style-1.0.3.tgz#de7377996cb9c7e501ec1ba7b7767709a68b824b"
+  integrity sha512-ZUhMav0HHUxo5gzLqxQsOf2ZpP/I3m6EEK8q25/kqpCYnwm1uRJ5CQ40PDQx46pmKtVibIMzDmraYovxNG3ovw==
+  dependencies:
+    mdast-util-heading-style "^1.0.2"
+    unified-lint-rule "^1.0.0"
+    unist-util-generated "^1.1.0"
+    unist-util-visit "^1.1.1"
+
+remark-lint-heading-style@^1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/remark-lint-heading-style/-/remark-lint-heading-style-1.0.2.tgz#87bdab061c9d259f50b5c51ce478d1c65bd31ae8"
   integrity sha512-d0aIbL8PU5LWfZVI8p49vEV5wWIfD/DdUjc+O8j5E0UWUgcRgPGB66xznkOb8AiniXpcaYggRW8hGZsxoYNt1g==
