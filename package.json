@@ -6,7 +6,7 @@
   "bugs": "https://github.com/psirenny/rollup-plugin-graphql-import/issues",
   "dependencies": {
     "rollup-pluginutils": "^2.5.0",
-    "tiny-invariant": "^1.0.0"
+    "tiny-invariant": "^1.0.5"
   },
   "devDependencies": {
     "@babel/core": "7.4.0",
