@@ -58,7 +58,7 @@
     "eslint-plugin-markdown": "1.0.0",
     "eslint-plugin-optimize-regex": "1.1.6",
     "flow-bin": "0.95.1",
-    "flow-typed": "2.5.1",
+    "flow-typed": "2.6.0",
     "graphql-import": "0.7.1",
     "graphql-schema-linter": "0.2.0",
     "greenkeeper-lockfile": "2.8.0",
