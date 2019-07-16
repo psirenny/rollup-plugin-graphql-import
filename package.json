@@ -104,7 +104,7 @@
     "rollup-plugin-flow-entry": "0.3.1",
     "standard-version": "5.0.2",
     "trash-cli": "1.4.0",
-    "unified": "7.1.0"
+    "unified": "8.3.1"
   },
   "peerDependencies": {
     "graphql": "^14.1.1",
