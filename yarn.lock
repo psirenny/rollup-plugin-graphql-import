@@ -3331,10 +3331,10 @@ flesch@^1.0.0:
   resolved "https://registry.yarnpkg.com/flesch/-/flesch-1.0.3.tgz#f4045e3ce7777af442d249df6d2120305294d196"
   integrity sha512-MCOgJFJy4igjV2L0y0ZJHp3F3LZwUbCNpvqnWW8w1XhGNvf6a6ru5BiKUQCgGcP0Hs774lRYird5DbZvGUzHgQ==
 
-flow-bin@0.95.1:
-  version "0.95.1"
-  resolved "https://registry.yarnpkg.com/flow-bin/-/flow-bin-0.95.1.tgz#633113831ccff4b7ee70a2730f63fc43b69ba85f"
-  integrity sha512-06IOC/pqPMNRYtC6AMZEWYR9Fi6UdBC7gImGinPuNUpPZFnP5E9/0cBCl3DWrH4zz/gSM2HdDilU7vPGpYIr2w==
+flow-bin@0.112.0:
+  version "0.112.0"
+  resolved "https://registry.yarnpkg.com/flow-bin/-/flow-bin-0.112.0.tgz#6a21c31937c4a2f23a750056a364c598a95ea216"
+  integrity sha512-vdcuKv0UU55vjv0e2EVh1ZxlU+TSNT19SkE+6gT1vYzTKtzYE6dLuAmBIiS3Rg2N9D9HOI6TKSyl53zPtqZLrA==
 
 flow-typed@2.5.1:
   version "2.5.1"
