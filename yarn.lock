@@ -1088,10 +1088,10 @@
   resolved "https://registry.yarnpkg.com/@psirenny/eslint-config/-/eslint-config-1.7.7.tgz#ccdfe212ed8121ae59faaae5e52a2bf5ee6ca410"
   integrity sha512-5EVVA0Qw9DsUcI091LdfK8eDnMPIh/P6R+fF0ybu9vT8EjQb9uY/jWs0NS2RBb7kE3jRTxtHF3BZp44Iz+ioUA==
 
-"@psirenny/graphql-schema-linter-config@1.1.7":
-  version "1.1.7"
-  resolved "https://registry.yarnpkg.com/@psirenny/graphql-schema-linter-config/-/graphql-schema-linter-config-1.1.7.tgz#08878a68709628de7457d32b6efbb8f80d05314d"
-  integrity sha512-LT6OYs/G81sgHwE47NStlm1mp/kRV/CfprdI6+C7glvMw5X0p3X74qK9aIcMGz8ozXvt08v2NGWKxnoc/NNPnw==
+"@psirenny/graphql-schema-linter-config@2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@psirenny/graphql-schema-linter-config/-/graphql-schema-linter-config-2.0.2.tgz#4d2fef78343a9ef8105bcfc253e64b3225a0a3d4"
+  integrity sha512-62ew9DUKd4ZUX1fafLi9hgl2N3QdCAlVoxETJxfOR8A4k+vi1qsM/jFWtjCQRnsCbvmtLa45FOLhm9bRApo2xQ==
 
 "@psirenny/npm-package-json-lint-config@1.3.6":
   version "1.3.6"
