@@ -1083,10 +1083,10 @@
   resolved "https://registry.yarnpkg.com/@psirenny/dictionary/-/dictionary-1.5.6.tgz#9f8957c015e8014130c22a9e635220f1422df569"
   integrity sha512-Lnozyw16ElMPGesCiEH530RuB0rBHy5mfA03OlQ1ppvPkpwPHvdI9FcGwnGqihx2xZRzL4hIadskWRL2Lhj0Hw==
 
-"@psirenny/eslint-config@1.7.7":
-  version "1.7.7"
-  resolved "https://registry.yarnpkg.com/@psirenny/eslint-config/-/eslint-config-1.7.7.tgz#ccdfe212ed8121ae59faaae5e52a2bf5ee6ca410"
-  integrity sha512-5EVVA0Qw9DsUcI091LdfK8eDnMPIh/P6R+fF0ybu9vT8EjQb9uY/jWs0NS2RBb7kE3jRTxtHF3BZp44Iz+ioUA==
+"@psirenny/eslint-config@3.1.1":
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/@psirenny/eslint-config/-/eslint-config-3.1.1.tgz#4b2d0a5274e9a1a02363636b0d56875dcd5e4d08"
+  integrity sha512-qCTGqiZobsVkliPkw3PUafkMHQ2+Bj61YLE3uGnCvIlUWB8qPz8lIOjn6Z1W7deckzlPQUpAV7HV3UUiMK1ccg==
 
 "@psirenny/graphql-schema-linter-config@1.1.7":
   version "1.1.7"
