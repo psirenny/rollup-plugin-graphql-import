@@ -4732,7 +4732,7 @@ lodash.debounce@^4.0.3:
   resolved "https://registry.yarnpkg.com/lodash.debounce/-/lodash.debounce-4.0.8.tgz#82d79bff30a67c4005ffd5e2515300ad9ca4d7af"
   integrity sha1-gteb/zCmfEAF/9XiUVMArZyk168=
 
-lodash.difference@^4.3.0, lodash.difference@^4.4.0, lodash.difference@^4.5.0:
+lodash.difference@^4.3.0, lodash.difference@^4.5.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/lodash.difference/-/lodash.difference-4.5.0.tgz#9ccb4e505d486b91651345772885a2df27fd017c"
   integrity sha1-nMtOUF1Ia5FlE0V3KIWi3yf9AXw=
@@ -7219,12 +7219,11 @@ retext-sentence-spacing@2.1.0:
     unist-util-is "^2.0.0"
     unist-util-visit "^1.1.0"
 
-retext-simplify@4.1.2:
-  version "4.1.2"
-  resolved "https://registry.yarnpkg.com/retext-simplify/-/retext-simplify-4.1.2.tgz#4c179475a9585a4ac8c80ceaf702e2a9a59aa34b"
-  integrity sha512-hB6gTs5PWk5D4jmuEoM/cpB4Fc4mGh8CbKk/pQvaQhhPmukQ98xi0L1GKNSjuTeFhZ6H3FszfduMfMAUZ3MDpw==
+retext-simplify@5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/retext-simplify/-/retext-simplify-5.1.0.tgz#32d6d5bd1750c9cc44cb841aef98c177e64ce1a5"
+  integrity sha512-WFXod3EWb89ezM2vajDPhI7aJZ4Zm9emZWdm2GG7Gi6KLyzYq6sfqQdBFRm7JUExqmMLsB3cjc6NMWQRSbC/SA==
   dependencies:
-    lodash.difference "^4.4.0"
     nlcst-search "^1.0.0"
     nlcst-to-string "^2.0.0"
     object-keys "^1.0.9"
