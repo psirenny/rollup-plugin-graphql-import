@@ -1093,10 +1093,10 @@
   resolved "https://registry.yarnpkg.com/@psirenny/graphql-schema-linter-config/-/graphql-schema-linter-config-1.1.7.tgz#08878a68709628de7457d32b6efbb8f80d05314d"
   integrity sha512-LT6OYs/G81sgHwE47NStlm1mp/kRV/CfprdI6+C7glvMw5X0p3X74qK9aIcMGz8ozXvt08v2NGWKxnoc/NNPnw==
 
-"@psirenny/npm-package-json-lint-config@1.3.6":
-  version "1.3.6"
-  resolved "https://registry.yarnpkg.com/@psirenny/npm-package-json-lint-config/-/npm-package-json-lint-config-1.3.6.tgz#76b02e1cad4f1664b76c4eefad57b152677e0bf4"
-  integrity sha512-YvB+xOER8r99Xtu95xAU7cW5Q54a4nUxd42W6jjJVrW121jGHEl3uWOvroJ6swgxS2bbZHnZ/938qTM7m/CSOA==
+"@psirenny/npm-package-json-lint-config@3.0.3":
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/@psirenny/npm-package-json-lint-config/-/npm-package-json-lint-config-3.0.3.tgz#31c14b65181b93de5cf49591a34983ee7f6ac77a"
+  integrity sha512-72h3CPROIvnec6KxDfNQNo/24cMx+YyvqKIucfQUkWlR/LzytTrroRXAnvqpMFpniOYQ45vFrsfsGfuiSd6Z4Q==
 
 "@psirenny/remark-preset@1.5.6":
   version "1.5.6"
