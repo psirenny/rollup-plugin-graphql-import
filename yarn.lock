@@ -2677,10 +2677,10 @@ detect-newline@^2.1.0:
   resolved "https://registry.yarnpkg.com/detect-newline/-/detect-newline-2.1.0.tgz#f41f1c10be4b00e87b5f13da680759f2c5bfd3e2"
   integrity sha1-9B8cEL5LAOh7XxPaaAdZ8sW/0+I=
 
-dictionary-en-us@2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/dictionary-en-us/-/dictionary-en-us-2.0.0.tgz#b9135f403444bb5e4b3cf465fb7d3f2fd276a839"
-  integrity sha512-AK8iDBvTHD0bxcEFEDUtofQ9w8Po7ZQCrrZo06ELw3UngJcnjUoEwvrkQfdeRBRcKD+QG9RU6SPYFYGGbuEQXQ==
+dictionary-en-us@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/dictionary-en-us/-/dictionary-en-us-3.0.0.tgz#1dec2716099f46a2b3577c401b278dc5fd28f1bc"
+  integrity sha512-hH033rB5pdVb51QBUBleq8z5XajVrs2tVRe26ZvIJzf5/c8BwZKlPXhr7rrW39AxZz5RQQhPpC/RMbmWtWtBUg==
 
 dir-glob@^2.0.0:
   version "2.2.2"
