@@ -7252,12 +7252,13 @@ retext-syntax-mentions@1.1.5:
     unist-util-position "^3.0.0"
     unist-util-visit "^1.1.0"
 
-retext-syntax-urls@1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/retext-syntax-urls/-/retext-syntax-urls-1.0.1.tgz#d7515deee86e43f625ce3fb5f87ebc158276bb14"
-  integrity sha512-FodfdOFSUp2WOBY7kcXPpXNy9WPnBQCXNVOrBgrY3dprc7qiwHvv5YlMCQKwBv5PS7+4ggcuiWAsP26qqVrXdg==
+retext-syntax-urls@2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/retext-syntax-urls/-/retext-syntax-urls-2.0.0.tgz#fe08161d08bf8d64c52ecdda55add5c31ff7e810"
+  integrity sha512-HHm32sKKXFwlqz5yNSpSwNQZJxCfekXwtCHAoLM8b6snn/S5pNotZMJSKCUO0XCvUOgq/x0wBUTTfYBwB0vGpg==
   dependencies:
     nlcst-to-string "^2.0.0"
+    unist-util-is "^4.0.0"
     unist-util-modify-children "^1.1.1"
     unist-util-position "^3.0.0"
 
@@ -8218,6 +8219,11 @@ unist-util-is@^2.0.0, unist-util-is@^2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/unist-util-is/-/unist-util-is-2.1.2.tgz#1193fa8f2bfbbb82150633f3a8d2eb9a1c1d55db"
   integrity sha512-YkXBK/H9raAmG7KXck+UUpnKiNmUdB+aBGrknfQ4EreE1banuzrKABx3jP6Z5Z3fMSPMQQmeXBlKpCbMwBkxVw==
+
+unist-util-is@^4.0.0:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/unist-util-is/-/unist-util-is-4.0.2.tgz#c7d1341188aa9ce5b3cff538958de9895f14a5de"
+  integrity sha512-Ofx8uf6haexJwI1gxWMGg6I/dLnF2yE+KibhD3/diOqY2TinLcqHXCV6OI5gFVn3xQqDH+u0M625pfKwIwgBKQ==
 
 unist-util-modify-children@^1.0.0, unist-util-modify-children@^1.1.1:
   version "1.1.3"
