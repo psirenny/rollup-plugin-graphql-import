@@ -7276,10 +7276,10 @@ rollup-plugin-babel@5.0.0-alpha.0:
     "@babel/helper-module-imports" "^7.0.0"
     rollup-pluginutils "^2.3.0"
 
-rollup-plugin-flow-entry@0.3.1:
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/rollup-plugin-flow-entry/-/rollup-plugin-flow-entry-0.3.1.tgz#59c6faf4a2eb69bb478ace53055aaa37e53ff54c"
-  integrity sha512-CCih1+GDYWm5axQEwmZrMCz0ez7rBgT8QLcnLw0sn2N+MBchRBCTSfNDvtCbOCQGZoxi1jbgaddsYqSMMAuMqA==
+rollup-plugin-flow-entry@0.3.4:
+  version "0.3.4"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-flow-entry/-/rollup-plugin-flow-entry-0.3.4.tgz#a7fcc334b7094889e60fa57224b0a1006882d15d"
+  integrity sha512-fYCgSB4y+gMJbJTpsIqR65mPhmLh6rH9CQx3lN9SQ6bQzyMXGuYu2GEIT/SeSOeZAgkAyyi8EnFykcaKH+sZtw==
 
 rollup-pluginutils@^2.3.0, rollup-pluginutils@^2.5.0:
   version "2.5.0"
