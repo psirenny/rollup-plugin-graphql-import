@@ -6293,7 +6293,17 @@ remark-lint-checkbox-character-style@1.0.2, remark-lint-checkbox-character-style
     unist-util-visit "^1.1.1"
     vfile-location "^2.0.1"
 
-remark-lint-code-block-style@1.0.2, remark-lint-code-block-style@^1.0.0:
+remark-lint-code-block-style@1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/remark-lint-code-block-style/-/remark-lint-code-block-style-1.0.4.tgz#c7d2fc493e4212e6c18a46b3396dae052bd223ad"
+  integrity sha512-Wq5F94nkaWTx8W/9C/ydG+DhVWLirBrWb0xnoMQ0cHnizAd3BWw8g0x5L7yglMYSUSVLWY0jfMHgOe9UW3JfTw==
+  dependencies:
+    unified-lint-rule "^1.0.0"
+    unist-util-generated "^1.1.0"
+    unist-util-position "^3.0.0"
+    unist-util-visit "^1.1.1"
+
+remark-lint-code-block-style@^1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/remark-lint-code-block-style/-/remark-lint-code-block-style-1.0.2.tgz#f24ef71767d5933ed83de93a54a85faf9e02c197"
   integrity sha512-fTSCga/lJ710zBaD808NwqzAatVoLQFizvXWpetygKwoAfXCyMYQ9DUdDE5jdDhwOu2JPnKbxY+4t6m4SrKKWA==
