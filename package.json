@@ -35,7 +35,7 @@
     "@babel/preset-env": "7.4.2",
     "@commitlint/cli": "7.5.2",
     "@commitlint/config-conventional": "7.5.0",
-    "@psirenny/babel-preset": "1.6.6",
+    "@psirenny/babel-preset": "4.0.4",
     "@psirenny/eslint-config": "1.7.7",
     "@psirenny/graphql-schema-linter-config": "1.1.7",
     "@psirenny/npm-package-json-lint-config": "1.3.6",
